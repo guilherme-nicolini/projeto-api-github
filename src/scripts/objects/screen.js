@@ -21,6 +21,9 @@ if(user.repositories.length > 0) {
        <ul>${repositoriesItens}</ul>
      </div>`
 }           
+    },
+    renderNotFound() {
+        this.userProfile.innerHTML = "<h3>Usuário não encontrado 😞</h3>"
     }
 }
 
